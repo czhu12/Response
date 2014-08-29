@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    >
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Ask a Question..."
+        android:ems="15"
+        android:id="@+id/question_text"
+        android:paddingLeft="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="32dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/select_a"
+        android:text="A"
+        android:gravity="center"
+        android:background="@drawable/button_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/question_text"
+        android:layout_margin="10dp"/>
+    <Button
+        android:id="@+id/select_b"
+        android:text="B"
+        android:gravity="center"
+        android:background="@drawable/button_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/select_a"
+        android:layout_margin="10dp"/>
+    <Button
+        android:id="@+id/select_c"
+        android:text="C"
+        android:gravity="center"
+        android:background="@drawable/button_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/select_b"
+        android:layout_margin="10dp"/>
+    <Button
+        android:id="@+id/select_d"
+        android:text="D"
+        android:gravity="center"
+        android:background="@drawable/button_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/select_c"
+        android:layout_margin="10dp"/>
+    <Button
+        android:id="@+id/select_e"
+        android:layout_width="match_parent"
+        android:text="E"
+        android:background="@drawable/button_background"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/select_d"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/submit_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit Question"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:background="#2980b9"
+        android:visibility="gone"
+        android:textColor="#ffffffff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/submit_vote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit Vote"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone"
+        android:layout_above="@id/submit_question"
+        android:background="#2ecc71"
+        android:textColor="#ffffffff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+</RelativeLayout>

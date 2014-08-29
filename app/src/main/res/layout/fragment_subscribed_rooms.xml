@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListView android:id="@+id/subscribed_rooms_list"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+    </ListView>
+
+    <Button
+        android:id="@+id/find_room_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Find a Room"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:background="#3498db"
+        android:textColor="#ffffffff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
